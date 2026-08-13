@@ -23,8 +23,7 @@ year = 2026
 # type() => mostrara el tipo de variable
 print(type(year))
 
-# Variables en una sola linea
-nombre, apellido, edad = 'Ezed', 'De Casa', 30
+
 
 
 # None = null | undefined
@@ -37,12 +36,5 @@ print(id(edad))
 # Eliminar variable de la memoria
 del year
 
-# Concatenar vario valores
-print(nombre + " " + apellido + " " + str(edad))
 
-# Metodo format
-print("Mi nombre es {} {} y tengo {} años".format(nombre, apellido, edad))
-print(f"Mi nombre es {nombre} {apellido} y tengo {edad} años")
-
-print("{1} tienes {0} años".format(edad, nombre))
 
