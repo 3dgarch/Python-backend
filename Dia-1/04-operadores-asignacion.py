@@ -16,5 +16,5 @@ numero1 *= 2
 # Dividiendo
 numero1 /= 2
 
-# P*tencia 
+# Potencia 
 numero1 **=2
