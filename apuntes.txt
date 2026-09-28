@@ -1,0 +1,12 @@
+python -m venv entorno_flask    >  Crear entorno virtual
+
+
+source <nombre_entorno>/scripts/activate   > levantar entorno en gitbash (windows)
+source <nombre_entorno>/scripts/activate   > levantar entorno en Mac/Linux
+<nombre_entorno>/scripts/activate          > levantar entorno en pwershell o CMD (windows)
+
+pip install <libreria>            > instalar libreria
+pip list                          > listar librerias
+pip freeze                        > listar librerias pero mas tecnica
+pip freeze > requirements.txt     > crear archivo con informacion de pip list
+pip install -r requirements.txt   > instalar librerias definidas en el txt
